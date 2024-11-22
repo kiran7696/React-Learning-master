@@ -1,16 +1,17 @@
 import './App.css';
 import {useState} from 'react'
+import { Routes,Route } from 'react-router-dom';
+import UserGrid from './component/userGrid/UserGrid';
+import AddEditUser from './component/AddEditUser/AddEditUser';
 function App() {
-  let [counter, setCounter] = useState(0);
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>I am learning react once again!!!</h1>
-        <div>{counter}</div>
-        <button onClick={()=>setCounter(counter = counter+1)}>Add Counter</button>
-        <button onClick={()=>setCounter(counter = counter-1)}>Minus Counter</button>
-        <button onClick={()=>setCounter(0)}>Reset Counter</button>
-      </header>
+      <Routes>
+        <Route path='/' element={<UserGrid />}/>
+        <Route path='/add-user' element={<AddEditUser />} />
+        <Route path='/edit-user/:id' element={<AddEditUser />} />
+        <Route path='/view-user/:id' element={<AddEditUser />} />
+      </Routes>
     </div>
   );
 }

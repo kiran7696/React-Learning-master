@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "userDetails": {
+        "userName": "kishor phawade",
+        "userEmail": "kishor@gmail.com",
+        "userAddress": "At Kanheri"
+      },
+      "id": "1b20"
+    },
+    {
+      "userDetails": {
+        "userName": "kiran jadhav",
+        "userEmail": "kiran@gmail.com",
+        "userAddress": "At Karajgaon"
+      },
+      "id": "2b8c"
+    },
+    {
+      "id": "c464",
+      "userDetails": {
+        "userName": "ganesh bodke",
+        "userEmail": "ganesh@gmail.com",
+        "userAddress": "At kanheri"
+      }
+    },
+    {
+      "id": "0bea",
+      "userDetails": {
+        "userName": "mangesh patil",
+        "userEmail": "mangesh@gmail.com",
+        "userAddress": "At masurdi"
+      }
+    }
+  ]
+}
